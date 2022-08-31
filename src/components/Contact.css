@@ -1,0 +1,27 @@
+.contact-container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+background-image: url(../assets/Main.jpg);
+background-size: cover;
+
+
+}
+input{
+    width: 500px;
+}
+textarea{
+width: 500px;
+height: 300px;
+}
+.from-color{
+    background-color: aliceblue;
+}
+.shadow{
+    background-color: aliceblue;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin: 25px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

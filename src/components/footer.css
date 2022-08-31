@@ -1,0 +1,30 @@
+.footer{
+    
+    display: flex;
+    justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.footer-main{
+height: 400px;
+text-align: center;
+    width: 100vw;
+    background-color: greenyellow;
+}
+plain{
+    font-size: 60px;
+   
+}
+.contact-item a img{
+    height: 60px;
+    border-radius: 10px;
+    margin: 8px;
+}
+@media screen and (max-width:473px){
+.small{
+    display: none;
+}
+plain{
+    font-size: 40px;
+}
+}

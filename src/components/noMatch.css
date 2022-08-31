@@ -1,0 +1,13 @@
+.noMatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+
+}
+.noMatch .btn{
+    background-color: green;
+    color: white;
+
+}

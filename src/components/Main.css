@@ -1,0 +1,35 @@
+.Main .container {
+    background-image: url(../assets/Main.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Main .left {
+    padding: 1rem;
+    color: white
+}
+
+.Main h1 {
+    padding: 1rem 0;
+}
+
+.Main .input-container {
+    padding: 1rem 0;
+}
+.btn-border{
+    border: 3px solid green ;
+}
+
+@media screen and (max-width: 940px) {
+    .Main .container {
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+}
