@@ -7,7 +7,7 @@ export default function SearchBar({ setData, data }) {
   return (
       <div className='search-background'>
           <div className='search-margin'>
-              <h1><span>Search</span><input className='input' value={data} onChange={handleSearch} /></h1>
+              <h1><span>Search</span><input className='input' placeholder='Search' value={data} onChange={handleSearch} /></h1>
               </div>
     </div>
   )
