@@ -26,6 +26,9 @@
 .btn-border{
     border: 3px solid green ;
 }
+.news-heading{
+    text-align: center;
+}
 
 @media screen and (max-width: 940px) {
     .Main .container {

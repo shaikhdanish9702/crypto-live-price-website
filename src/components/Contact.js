@@ -22,7 +22,7 @@ const Contact = () => {
                       <textarea cols='30' rows='10'></textarea>
                       <br />
                        <br/>
-            <button className='btn'>Submit Request</button>
+            <button onClick={(e)=>e.preventDefault()} className='btn'>Submit Request</button>
           </form>
         </div>
       </section>

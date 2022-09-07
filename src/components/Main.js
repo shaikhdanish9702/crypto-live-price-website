@@ -1,3 +1,4 @@
+import CurrentNews from './CurrentNews'
 import Featured from './Features'
 import './Main.css'
 
@@ -23,7 +24,10 @@ const Main = ({topdata}) => {
                 </div>
             </div>
             <Featured topdata={topdata} coinsvisble={10} flag={true} />
-            
+            <hr/>
+            <h1 className='news-heading'>Current News</h1><hr/>
+
+            <CurrentNews />
             </>
     )
 }
